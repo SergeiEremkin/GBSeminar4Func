@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿void Summ (int A)
+{
+    int result = 0;
+    for(int i = 1; i<=A; i++)
+    {
+        
+        result = result+i;
+
+    }
+    System.Console.WriteLine(result);
+}
+Summ(7);
+Summ(1);
